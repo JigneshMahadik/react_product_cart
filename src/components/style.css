@@ -1,0 +1,111 @@
+#navbar{
+    display: flex;
+    background-color: rgb(76, 103, 223);
+    justify-content: space-around;
+}
+#navbar h2{
+    color: white;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#car-count{
+    margin-left: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    /* color: white; */
+}
+/* #cart-main-cont{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+#product-wrapper{
+    
+    background-color: aquamarine;
+    width: 700px;
+    
+}
+#img-div{
+    width: 20%;
+    min-width: 100px;
+    
+}
+#pro-pic{
+    width: 70px;
+    
+    
+}
+#pro-detail{
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+#left-detail{
+    
+    padding-top: 13px;
+    text-align: left;
+    
+}
+#right-detail{
+    width: 80px;
+    display: flex;
+    
+    flex-grow: 1;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+#right-detail button{
+    height: 25px;
+    width: 30px;
+} */
+
+
+
+#wrapper{
+    /* background-color: yellowgreen; */
+    /* width: 100%; */
+}
+#row{
+    /* background-color: tomato; */
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#col1{
+    width: 18%;
+    /* background-color: aqua; */
+}
+#col2{
+    width: 65%;
+    text-align: left;
+    /* background-color: violet; */
+    /* display: flex; */
+    margin-top: 10px;
+}
+#col2 p{
+    color: red;
+    cursor: pointer;
+}
+#col3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 17%;
+    /* background-color: springgreen; */
+}
+#total-cont{
+    margin: auto;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+#clear-cart{
+    margin-bottom: 50px;
+}
